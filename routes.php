@@ -12,7 +12,7 @@ Route::set('index.php', function(){
 
 Route::set('absence', function(){
      absence::CreateView('absence');
-     absence::test();
+
 });
 
 

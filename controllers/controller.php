@@ -5,5 +5,6 @@ class controller extends database {
         {
             require_once ("./views/$viewName.php");
 
+            static::doSomething();
 
         }};
