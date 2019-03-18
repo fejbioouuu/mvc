@@ -7,5 +7,8 @@
  */
 class absence extends controller {
 
+    public static function test(){
+        self::query("SELECT * FROM absences");
+    }
 
 }
